@@ -41,9 +41,9 @@
     </PreferenceScreen>
 
     <PreferenceCategory
-        android:key="button_voicemail_category_key"
-        android:title="@string/voicemail"
-        android:persistent="false">
+      android:key="button_voicemail_category_key"
+      android:title="@string/voicemail"
+      android:persistent="false">
 
       <CheckBoxPreference
           android:defaultValue="false"
@@ -112,6 +112,12 @@
         android:title="@string/vibrate_call_waiting"
         android:persistent="true"
         android:summary="@string/vibrate_call_waiting_sum"/>
+    <CheckBoxPreference
+        android:key="lockscreen_if_call_ends_with_screenoff"
+        android:title="@string/lockscreen_if_call_ends_with_screenoff"
+        android:persistent="false"
+        android:summary="@string/lockscreen_if_call_ends_with_screenoff_sum"/>
+
   </PreferenceCategory>
 
   <PreferenceCategory android:key="button_misc_category_key"
